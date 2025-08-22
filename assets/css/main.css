@@ -1,0 +1,14 @@
+/* Import toàn bộ Tailwind CSS framework */
+/* Đây là cách import Tailwind CSS v4 - thay thế cho @tailwind base, @tailwind components, @tailwind utilities */
+@import "tailwindcss";
+
+/* Định nghĩa các style cơ bản cho toàn bộ ứng dụng */
+@layer base {
+  /* Style cho thẻ body - áp dụng cho toàn bộ trang web */
+  body {
+    /* Áp dụng background màu xám nhạt và text màu xám đậm */
+    /* bg-gray-50: background color gray với độ sáng 50 */
+    /* text-gray-800: text color gray với độ sáng 800 (gần như đen) */
+    @apply bg-gray-50 text-gray-800;
+  }
+}
